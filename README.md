@@ -9,24 +9,28 @@
 ослы), а затем объединить их. Просмотреть содержимое созданного файла.
 Переименовать файл, дав ему новое имя (Друзья человека).
 
-![Task 1](https://user-images.githubusercontent.com/99810114/221401192-b1a5c5aa-d2e2-4531-8341-3b951ee9a5be.jpg)
+![Task 1]![image](https://github.com/Screemple/12444415/assets/74444544/08d68d26-cf9a-43f2-8612-01ea95d546e5)
+
 
 2. Создать директорию, переместить файл туда.
 
-![Task 2](https://user-images.githubusercontent.com/99810114/221401198-5f035f3b-dabb-425a-ae4a-b273822b26bc.jpg)
+![Task 2]![image](https://github.com/Screemple/12444415/assets/74444544/42b9d88f-8b6c-48f5-b257-9b95b07631d8)
+
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
-![Task 3](https://user-images.githubusercontent.com/99810114/221401204-319e6e99-7b30-4da1-a0ca-db5d821146c8.jpg)
-![Task 4](https://user-images.githubusercontent.com/99810114/221401211-7563ea97-23dc-4f39-807a-fc6e4a68b598.jpg)
+![Task 3]![image](https://github.com/Screemple/12444415/assets/74444544/568909ad-085d-4dd4-aa09-c2e3216033e5)
+![Task 4]![image](https://github.com/Screemple/12444415/assets/74444544/7d859145-a7ec-4e10-b61f-87bbb84c3c9c)
+
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
-![Task 5](https://user-images.githubusercontent.com/99810114/221401222-7d436e91-2fdd-4389-8a95-c6ebc7e26300.jpg)
+![Task 5]![image](https://github.com/Screemple/12444415/assets/74444544/6ca48aa7-a237-4658-9dfe-97c0a8fd34d9)
 
-5. Выложить [историю команд](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/HistoryCommandsUbuntuTerminal.md) в терминале ubuntu
-6. Нарисовать [диаграмму](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/UML.drawio), в которой есть класс родительский класс, домашние
+
+5. Выложить [историю команд](https://github.com/Screemple/Verification-work/blob/main/HistoryCommandsUbuntuTerminal.md) в терминале ubuntu
+6. Нарисовать [диаграмму](https://github.com/Screemple/Verification-work/blob/main/UML.drawio), в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
@@ -229,22 +233,18 @@ LEFT JOIN yang_animal ya ON ya.Name = hm.Name
 LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
 ```
 
-13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src/Model).
-14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/ILYA-NASA/Kennel_account_system/tree/main/System/src).
+13. Создать [класс с Инкапсуляцией методов и наследованием по диаграмме](https://github.com/Screemple/Verification-work/tree/main/System/src/Model).
+14. Написать [программу, имитирующую работу реестра домашних животных](https://github.com/Screemple/Verification-work/tree/main/System/src).
 В программе должен быть реализован следующий функционал:    
 	14.1 Завести новое животное    
 	14.2 определять животное в правильный класс    
 	14.3 увидеть список команд, которое выполняет животное    
 	14.4 обучить животное новым командам    
 	14.5 Реализовать навигацию по меню    
-15. Создайте [класс Счетчик](https://github.com/ILYA-NASA/Kennel_account_system/blob/main/System/src/Controller/Counter.java), у которого есть метод add(), увеличивающий̆
+15. Создайте [класс Счетчик](https://github.com/Screemple/Verification-work/blob/main/System/src/Controller/Counter.java), у которого есть метод add(), увеличивающий̆
 значение внутренней̆ int переменной̆ на 1 при нажатии “Завести новое
 животное” Сделайте так, чтобы с объектом такого типа можно было работать в
 блоке try-with-resources. Нужно бросить исключение, если работа с объектом
 типа счетчик была не в ресурсном try и/или ресурс остался открыт. Значение
 считать в ресурсе try, если при заведении животного заполнены все поля.
 
-![Program](https://user-images.githubusercontent.com/99810114/221417421-93de1f4c-ad41-4f7e-a45d-edd5ec72f1d3.jpg)
-
-     
-![image](https://user-images.githubusercontent.com/99810114/222143283-7ec9e203-2a23-4cf4-81b8-b97a159cdc79.png)
